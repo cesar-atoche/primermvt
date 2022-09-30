@@ -3,11 +3,11 @@ from django.template import loader
 from django.http import HttpResponse
 from familia.models import Persona
 # Create your views here.
-def borrar(request):
-    for x in range(80,83):
-        aux = Persona.objects.get(id=x)
-        aux.delete()
-    return HttpResponse("Eliminando")
+# def borrar(request):
+#     for x in range(80,83):
+#         aux = Persona.objects.get(id=x)
+#         aux.delete()
+#     return HttpResponse("Eliminando")
 
 def inicio(request):
     lista = [

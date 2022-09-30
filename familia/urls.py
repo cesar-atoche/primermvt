@@ -3,5 +3,5 @@ from familia import views
 
 urlpatterns = [
     path('', views.inicio),  
-    path('borra/', views.borrar),  
+    # path('borra/', views.borrar),  
 ]
