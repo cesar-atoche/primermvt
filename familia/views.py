@@ -11,9 +11,9 @@ from familia.models import Persona
 
 def inicio(request):
     lista = [
-        {"nombre":"cesarin","apellido":"atoche paredes","nacimiento":"1984-09-04","edad":38},
-        {"nombre":"dereck","apellido":"atoche ruiz","nacimiento":"2015-06-27","edad":7},
-        {"nombre":"alexis","apellido":"atoche ruiz","nacimiento":"2011-09-04","edad":11}]
+        {"nombre":"carlos","apellido":"balladares paredes","nacimiento":"1984-10-04","edad":38},
+        {"nombre":"juan","apellido":"perez ruiz","nacimiento":"2015-07-27","edad":7},
+        {"nombre":"jose","apellido":"vasco ruiz","nacimiento":"2011-08-04","edad":11}]
 
     for i in range(len(lista)):
         personita = Persona(nombre=lista[i]["nombre"],apellido=lista[i]["apellido"],nacimiento=lista[i]["nacimiento"],edad=lista[i]["edad"])
